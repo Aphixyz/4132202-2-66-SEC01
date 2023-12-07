@@ -10,5 +10,5 @@ try {
     mysqli_query($conn, $sql);
 } catch (Exception $e) {
     // echo $e->getMessage();
-    echo "error";
+    echo "Error";
 }
